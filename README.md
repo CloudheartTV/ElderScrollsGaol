@@ -30,7 +30,7 @@ What the deploy script does
 How to deploy
 1. Ensure you have permissions to push to the GitHub repo and that the remote is set:
    - git remote -v
-   - It should point to: https://github.com/Fliperdo/abby-personal-portfolio.git
+   - It should point to: https://github.com/CloudheartTV/ElderScrollsGaol.git
 2. Deploy
    - npm run deploy
 3. Configure GitHub Pages (one-time per repo)
@@ -38,20 +38,12 @@ How to deploy
    - Source: Deploy from a branch
    - Branch: gh-pages, Folder: /(root)
 4. Wait a minute or two for GitHub Pages to publish and cache the site
-   - Visit: https://Fliperdo.github.io/abby-personal-portfolio
+   - Visit: https://github.com/CloudheartTV/ElderScrollsGaol
 
 ## How this works with GitHub Pages
 - The site is served at /abby-personal-portfolio/ under your GitHub Pages domain
 - Vite is configured with a base path so assets load correctly from that subpath
 - A 404.html is included in the published output to act as an SPA fallback; GitHub Pages serves 404.html when a direct link to a client route is requested, allowing the React router to pick up the route client-side
-
-## For forks or renames
-If you clone/fork/rename the repository, update two places so deployment works for your repo:
-1. package.json → "homepage"
-   - Example: "homepage": "https://YOUR-USERNAME.github.io/YOUR-REPO-NAME"
-2. vite.config.js → base
-   - Example: base: "/YOUR-REPO-NAME/"
-After updating those values, run npm install (if needed) and then npm run deploy. Also update GitHub Pages settings to use the gh-pages branch.
 
 ## Troubleshooting
 - gh-pages command not found
