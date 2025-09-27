@@ -1,8 +1,6 @@
-# Abby Personal Portfolio (Vite + React)
+# ElderScrollsGaol Personal Portfolio (Vite + React)
 
-A simple React single-page application (SPA) built with Vite. It’s configured to deploy to GitHub Pages using the gh-pages branch. The app is served under a subpath on GitHub Pages and includes an SPA fallback (404.html) so that client-side routes work when you refresh or visit deep links.
-
-Live site: https://Fliperdo.github.io/abby-personal-portfolio
+Live site: https://CloudheartTV.github.io/ElderScrollsGaol
 
 ## Prerequisites
 - Node.js 18+ and npm

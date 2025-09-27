@@ -1,9 +1,9 @@
 {
-  "name": "abbydotnet",
+  "name": "elder_scrolls_gaol",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Fliperdo.github.io/abby-personal-portfolio",
+  "homepage": "https://CloudheartTV.github.io/ElderScrollsGaol",
   "scripts": {
     "start": "vite",
     "dev": "vite",
